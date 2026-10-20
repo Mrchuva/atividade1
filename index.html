@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Cores</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="folha.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="imagem-arco-iris">
+            <img src="imagem/as-cores-do-arco-iris-26294.jpg" alt="Imagem do arco-íris">
+        </div>
+        <h1>Sorteio de Cores</h1>
+        <p>sorteie uma cor aleatória e veja como ela se destaca!</p>
+    </header>
+
+    <main class="conteudo">
+        <section class="galeria" aria-label="Galeria de imagens em alta resolução">
+            <figure class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2400&q=80" alt="Paisagem com montanhas e lago">
+            </figure>
+
+            <figure class="card">
+                <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2400&q=80" alt="Paisagem natural com árvores e rio">
+            </figure>
+
+            <figure class="card">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2400&q=80" alt="Paisagem de montanhas ao amanhecer">
+            </figure>
+        </section>
+
+        <section class="sorteio" aria-label="Área de sorteio de cor">
+            <button id="sortear" type="button">Sortear Cor</button>
+            <div id="quadrado" aria-live="polite"></div>
+        </section>
+    </main>
+</body>
+</html>
